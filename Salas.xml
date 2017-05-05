@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mundo>
+  <sala nome="salaA">
+    <descricao>O dia amanheceu bonito, céu azul, pássaros cantando, tudo indicando que o dia será esplêndido! Você senta para tomar seu café antes de seguir para o trabalho.</descricao>
+    <comando resultado="Depois de um trajeto tranquilo, você finalmente chega ao trabalho" chave="salaB">Terminar o café e ir para o trabalho.</comando>
+  </sala>
+  <sala nome="salaB">
+    <descricao>Por mais que o dia esteja lindo, você se lembra da noite anterior: bebedeira... E a ressaca começa a cobrar o preço pela noitada. Você é professor de literatura na escola pública da cidade e terá uma classe em poucas horas.</descricao>
+    <comando resultado="Remédio tomado, dor de cabeça amenizada e ressaca aparentemente controlada." chave="salaC">Procurar um remédio para tentar amenizar os efeitos da ressaca.</comando>
+    <comando resultado="Continua meio alto, porém, suficientemente bem para ministrar a aula." chave="salaC">Batiza seu café com Whisky, porque acredita que bebedeira se cura com mais bebedeira.</comando>
+  </sala>
+  <sala nome="salaC">
+    <descricao>Você caminha para a classe. Chegando, visualiza que os alunos estão agitados, logo os repreende, porém, um aluno insiste em continuar, aparentemente ele está tentando te desafiar, esperando que você saia fora de controle.</descricao>
+    <comando resultado="Ele para por um instante, porém, logo continua." chave="salaD">Chamar a sua atenção, e dizer que está atrapalhando a aula.</comando>
+    <comando resultado="Meio contestado, ele se levanta e sai da sala resmungando." chave="salaD">Pedir para ele se retirar.</comando>
+  </sala>
+  <sala nome="salaD">
+    <descricao>Fulano é um aluno problemático. Certamente não é um dos seus favoritos e nem você é um dos fãs dele. A aula segue normalmente até pouco antes do horário de almoço. Você pega suas coisas e se dirige para o estacionamento.</descricao>
+    <comando resultado="Você se depara com uma situação completamente desagradável." chave="salaE">Pegar suas coisas, ir para o estacionamento e pegar o carro para ir almoçar.</comando>
+  </sala>
+  <sala nome="salaE">
+    <descricao>Ao chegar ao estacionamento, percebe que seu carro foi depredado. Logo vem a sua mente Fulano. A confirmação vem com o relato do zelador, que mais cedo, flagrou Fulano realizando o delito. Certamente aquilo te enfureceu!</descricao>
+    <comando resultado="Fulano começa a chorar e aos poucos, você começa a realizar o tamanho do problema que causou." chave="salaF">Vai ao encontro de Fulano e em um ato de pura raiva, acaba quebrando o seu braço!</comando>
+    <comando resultado="O diretor, que andava pela escola, observa seu comportamento estranho e percebe que você bebeu. Certamente isso não o agradou nenhum pouco." chave="salaT">Deixa o carro na escola e sai a pé para almoçar. Frustrado, resolve tomar umas cervejas para relaxar. Após umas e outras, você volta para a escola. Um pouco alterado, sem dúvidas.</comando>
+  </sala>
+  <sala nome="salaF">
+    <descricao>O diretor lhe demite. Você totalmente abalado e ciente daquilo, resolve passar em um bar que ficava no caminho de sua casa. Se lembra que teve problemas com bebida no passado, porém, nas circunstâncias atuais, ignora e encosta no bar. Bebe umas e outras e vai embora.</descricao>
+    <comando resultado="Você, um pouco alterado, entra no carro e dirige até em casa." chave="salaG">Dirigir até em casa...</comando>
+  </sala>
+  <sala nome="salaG">
+    <descricao>Ao chegar em casa, sua esposa e filho, esse com 5 anos, percebem seu estado e vão ao seu encontro. Sua esposa, já acostumada a ver você assim de outros tempos, não fica tão furiosa quanto ficava. O sentimento é de tristeza. Você toma um banho e enquanto isso pensa se deve ou não contar a sua esposa sobre o acontecido...</descricao>
+    <comando resultado="Ela surta e diz que uma hora ou outra a bebida ia fazer isso. Você fica aborrecido." chave="salaH">Contar tudo à esposa.</comando>
+    <comando resultado="Certamente em breve eles irão descobrir. Talvez não tenha sido uma boa escolha." chave="salaH">Fingir que nada aconteceu.</comando>
+  </sala>
+  <sala nome="salaH">
+    <descricao>Os dias passam e sua vida se resume a procurar emprego (e falhar) e dar uma passada no bar. Um amigo seu da faculdade, com o qual você mantinha algum contato e sabia da sua situação, liga para você e lhe avisa sobre uma vaga de emprego: cuidar de um Hotel nas montanhas durante o inverno. Você agradece e começa a refletir se deve ou não ir atrás desse emprego.</descricao>
+    <comando resultado="Certamente não é o candidato preferido para a vaga, porém, Sr. Nome, que é o responsável pelo Hotel, lhe contrata." chave="salaI">Vai até o Hotel fazer a entrevista para o dito emprego.</comando>
+    <comando resultado="Você é derrotado pelo seu orgulho. Obviamente não consegue arrumar outro emprego de professor. O dinheiro acaba e você e sua família morrem de fome e frio." chave="nenhuma">Recusar a orferta de emprego.</comando>
+  </sala>
+  <sala nome="salaI">
+    <descricao>O inverno começa a dar as caras. Você e sua família fazem as malas e partem para o Hotel. Chegando lá, Sr. Nome lhe dá as últimas instruções e vai embora, como todas as outras pessoas do hotel, ficando apenas você, seu filho e sua esposa.</descricao>
+    <comando resultado="Vocês conhecem o Hotel e realizam que ele é muito bonito. Você sente que passarão um inverno muito aconchegante ali. Seu filho não pensa o mesmo que você." chave="salaJ">Andar pelo Hotel e conhecer suas dependências.</comando>
+  </sala>
+  <sala nome="salaJ">
+    <descricao>Você e sua esposa vão se entreter com os afazeres do Hotel, seu filho vai brincar pelo Hotel. Durante a noite, vocês se reúnem para o jantar. Seu filho Nome, está meio estranho. Quando questionado, diz que não gosta do Hotel e fala que ali aconteceram 'Coisas Ruins'. Você sem entender nada, ignora e continua jantando.</descricao>
+    <comando resultado="Você descobre algumas coisas que lhe deixam incomodado..." chave="salaK">Intrigado, você vai pesquisar o que se passou no Hotel em anos anteriores.</comando>
+    <comando resultado="O bar está fechado até a próxima temporada, porém, você fica desejando uma bebida..." chave="salaK">Entediado, após o jantar, você dá uma volta pelo Hotel e vai até o bar.</comando>
+  </sala>
+  <sala nome="salaK">
+    <descricao>Com o passar dos meses e após realizar sempre as mesmas tarefas, você já começa a sentir os sinais do isolamento. Certamente o relacionamento entre você e sua família já não é mais o mesmo. A sua vontade de beber só aumentou. Você tenta negar, mas em alguns momentos, acreditar ter visto ou conversado com pessoas que nem estão ali de verdade...</descricao>
+    <comando resultado="Por mais que você tente não pensar... você ainda vê certas coisas..." chave="salaL">Ignorar tais pensamentos e focar nas tarefas do Hotel.</comando>
+    <comando resultado="Você fica animado com o Romance e se sente muito melhor. Tudo vai dar certo." chave="salaS">Ocupar a cabeça com outras tarefas, por exemplo: Escrever um romance! </comando>
+  </sala>
+  <sala nome="salaL">
+    <descricao>Seu filho tem um comportamento estranho. Grita em desespero e corre ao encontro de você. Você e sua esposa apavorados, tentam o acalmar. Após algumas tentativas, o garoto se recupera. Você então pergunta o que houve e o garoto diz que viu coisas terríveis em um dos quartos. Você meio desacreditado, pergunta que tipo de coisas são essas. Ele fica repetindo a palavra REDRUM, REDRUM. Você fica com medo.</descricao>
+    <comando resultado="Você, que já não é mais o mesmo, vai até o quarto. Ao chegar, fica surpreso com o que vê..." chave="salaM">Vai até o quarto que seu filho diz ter visto coisas terríveis.</comando>
+    <comando resultado="O menino, ainda meio abalado, vai com a mãe para o quarto." chave="salaQ">Briga com o menino e o acusa de estar inventando, manda ele ir dormir porque já está ficando tarde.</comando>
+  </sala>
+  <sala nome="salaM">
+    <descricao>Você tinha lido algo sobre coisas que ocorreram ali em anos anteriores. Ao chegar no quarto, você se depara com uma moça nua dentro da banheira, muito atraente por sinal, que sai e vai ao seu encontro. O relacionamento com sua esposa estava insuportável, então, não pensou duas em observar a moça. Vocês se abraçam e ao olhar pelo espelho, realiza que ela é um cadáver e está em estado deplorável...</descricao>
+    <comando resultado="Tudo aquilo seria mentira? Talvez. Sua cabeça já não é mais a mesma..." chave="salaN">Se livra dela, tranca o quarto e corre, dizendo para si mesmo que aquilo é mentira e que não existe ninguém mais que você e sua família no Hotel</comando>
+  </sala>
+  <sala nome="salaN">
+    <descricao>Sua esposa está preocupadíssima com os acontecimentos que vem ocorrendo no Hotel. Ela desconfia que você está tendo uma crise de abstinência. Você fica furioso. Do quarto, seu filho começa a gritar: REDRUM, REDRUM! Sua esposa sem entender nada, porém, muito apavorada, pega o garoto e tenta fugir para longe de você!</descricao>
+    <comando resultado="Ela te acerta com um taco de baseball e fogem enquanto você agoniza no chão." chave="salaO">Impedir eles, nem que seja à força, afinal, VOCÊ ESTÁ BEM!</comando>
+    <comando resultado="Ela diz que a situação está insustentável. Corre de você e sai para o jardim." chave="salaP">Tentar conversar, convencer ela que tudo está bem.</comando>
+  </sala>
+  <sala nome="salaO">
+    <descricao>Você se recupera e tenta alcança-los. Chega ao jardim, e tenta correr atrás deles. Devido ao grande volume de neve, você não consegue ir muito longe, longo cai, cansado e com frio. Você não consegue se mover, o frio está paralisando seus membros. Logo você cai e grita por socorro, mas sabe que ali é o seu fim. Em breve estará morto! Sua esposa e filho fogem de você usando o carro traçado.</descricao>
+    <comando resultado="Você morre!" chave="nenhuma">Agonizar até a morte</comando>
+  </sala>
+  <sala nome="salaP">
+    <descricao>Sua esposa se tranca no banheiro com o seu filho. Você extremamente furioso, busca um machado para arrombar a porta. Enquanto você destrói a porta com o machado, sua esposa joga seu filho pela janela, que consegue correr para o jardim.</descricao>
+    <comando resultado="Ao entrar, ela te surpreende e lhe dá um golpe com a faca e sai correndo." chave="salaO">Terminar de arrombar a porta e caçar sua esposa e seu filho.</comando>
+  </sala>
+  <sala nome="salaQ">
+    <descricao>Após todos dormirem, você sai pelo Hotel, investigando o que seu filho relatou. Não encontra nada.</descricao>
+    <comando resultado="Os dias passam cada vez mais lentos e você anseia por uma bebida." chave="salaR">Vai se deitar e tentar dormir.</comando>
+    <comando resultado="Conversa sozinho, reclama com o barman(?) que se sente pressionado pela esposa e que não aguanta mais. Necessita de uma bebida!" chave="salaN">Vai ao bar do Hotel.</comando>
+  </sala>
+  <sala nome="salaR">
+    <descricao>O isolamento deixou você fora de si. Mas conseguiu manter ao menos um pingo de sanidade e suportar a solidão e a falta de uma bebida até o fim do inverno. Ao começo da nova temporada, o Sr. Nome lhe oferece um emprego fixo no Hotel. Você, resolve aceita-lo, mesmo que temporariamente, até conseguir se reestabelecer e poder voltar a dar aulas de literatura. A bebida ainda é um problema que lhe visita as vezes, mas tem conseguido lidar e superá-lo. o Relacionamento com sua família tem melhorado bastante e você se sente animado com o futuro.</descricao>
+    <comando resultado="E viveram felizes para sempre!" chave="nenhuma">Deixar de lado os problemas e procurar ser feliz!</comando>
+  </sala>
+  <sala nome="salaS">
+    <descricao>Você começou a escrever o romance. Isso lhe manteve ocupado por um tempo. No futuro, você até pensa sobre escrever um documentário sobre o Hotel ou sobre o tempo que você passou isolado na montanha.</descricao>
+    <comando resultado="Vocês se sentem estranhos, mas conseguem tolerar um ao outro." chave="salaR">Passar um tempo com sua família.</comando>
+  </sala>
+  <sala nome="salaU">
+    <descricao>Logo a tarde, você encontra Fulano e logo vai tirar satisfação com ele. Após uma discussão calorosa, você o agride. Você é chamado na sala do Diretor.</descricao>
+    <comando resultado="Você já imagina o que está por vir." chave="salaF">Ir para a sala do Diretor.</comando>
+  </sala>
+  <sala nome="salaT">
+    <descricao>O diretor lhe oferece ajuda, percebe que você está tem tido problemas com a bebida e lhe convida para visitar os Alcoólicos Anônimos.</descricao>
+    <comando resultado="No início você acha aquilo perca de tempo, porém com o tempo, começa a colocar a vida nos eixos." chave="nenhuma">Aceitar o convite e ir aos Alcoólicos Anônimos.</comando>
+    <comando resultado="Não era a resposta que o Diretor estava esperando." chave="salaU">Recusar o convite</comando>
+  </sala>
+</mundo>
